@@ -50,5 +50,3 @@ We utilized **Scatter Plots** and **Line Charts** to compare **Actual vs. Predic
 ## 👨‍💻 Author
 **Hafiz Muhammad Yahya**
 *Undergraduate Student (BS AI) at SMIU*
-* [LinkedIn](https://www.linkedin.com/in/hafiz-muhammad-yahya-02a8312b9/)
-* [GitHub](https://github.com/m-yahya-05)
