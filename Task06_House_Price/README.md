@@ -1,1 +1,43 @@
-🏠 House Price Prediction using XGBoost RegressorThis repository contains the implementation of a Machine Learning model designed to predict residential property prices. The project utilizes advanced regression techniques and feature engineering to estimate house values accurately based on various physical and location-based attributes.📋 Project OverviewPredicting real estate prices is a fundamental task in data science. In this project (Task 6), we analyzed a housing dataset to identify primary price drivers and developed a high-performance regression model using XGBoost.Key Objectives:Feature Preprocessing: Scaling numerical variables like SquareFeet and LotSize.Feature Engineering: Creating a Location_Score through target encoding of Zip Codes.Outlier Detection: Identifying data anomalies using Z-Score analysis.Model Training: Leveraging the XGBoost (Extreme Gradient Boosting) algorithm.Performance Evaluation: Measuring model accuracy using MAE, MSE, and RMSE.🛠️ Tech Stack & LibrariesLanguage: Python 🐍Core Libraries:Pandas & NumPy: Data manipulation and numerical operations.XGBoost: High-efficiency gradient boosting regression.Scikit-Learn: Data scaling, splitting, and evaluation metrics.Matplotlib: Visualizing the correlation between actual and predicted prices.📊 Methodology1. Data Preprocessing & ScalingStandardization: SquareFeet and LotSize were normalized using StandardScaler to ensure the model treats these features objectively during training.Location Engineering: To handle categorical Zip Codes, we engineered a Location_Score based on the mean price per area.Outlier Management: We applied a Z-Score filter (threshold > 3) to maintain data integrity.2. Model ConfigurationThe XGBRegressor was implemented with the following parameters:n_estimators: 100learning_rate: 0.1max_depth: 53. Performance MetricsThe model demonstrated exceptional predictive power:MAE (Mean Absolute Error): ~3,552.60RMSE (Root Mean Squared Error): ~4,917.11$R^2$ Score: 0.9996
+# 🏠 House Price Prediction using XGBoost Regressor
+
+This repository contains the implementation of a Machine Learning model designed to predict residential property prices. The project utilizes advanced regression techniques and feature engineering to estimate house values accurately.
+
+## 📋 Project Overview
+Predicting real estate prices is a fundamental task in data science. In this project (Task 6), we analyzed a housing dataset to identify primary price drivers and developed a high-performance regression model using **XGBoost**.
+
+### Key Objectives:
+* **Feature Preprocessing:** Scaling numerical variables like `SquareFeet` and `LotSize`.
+* **Feature Engineering:** Creating a `Location_Score` through target encoding of Zip Codes.
+* **Outlier Detection:** Identifying data anomalies using **Z-Score** analysis.
+* **Model Training:** Leveraging the **XGBoost** algorithm.
+* **Performance Evaluation:** Measuring model accuracy using **MAE**, **MSE**, and **RMSE**.
+
+---
+
+## 🛠️ Tech Stack & Libraries
+* **Language:** Python 🐍
+* **Core Libraries:**
+    * `Pandas` & `NumPy`: Data manipulation.
+    * `XGBoost`: Gradient boosting regression.
+    * `Scikit-Learn`: Scaling and metrics.
+    * `Matplotlib`: Visualization.
+
+---
+
+## 📊 Methodology
+
+### 1. Data Preprocessing & Scaling
+* **Standardization:** `SquareFeet` and `LotSize` were normalized using `StandardScaler`.
+* **Location Engineering:** Engineered a `Location_Score` based on the mean price per area.
+* **Outlier Management:** Applied a Z-Score filter (threshold > 3).
+
+### 2. Performance Metrics
+* **MAE (Mean Absolute Error):** ~3,552.60
+* **RMSE (Root Mean Squared Error):** ~4,917.11
+* **$R^2$ Score:** **0.9996**
+
+---
+
+## 👨‍💻 Author
+**Hafiz Muhammad Yahya**
+*Undergraduate Student (BS AI) at SMIU*
