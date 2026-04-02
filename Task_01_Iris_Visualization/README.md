@@ -26,3 +26,6 @@ The primary objective of this task was to perform Exploratory Data Analysis (EDA
 - Data Loading and Inspection (Pandas)
 - Descriptive Statistical Analysis
 - Data Visualization (Seaborn & Matplotlib)
+
+### 👨‍💻 Author
+Hafiz Muhammad Yahya Undergraduate Student (BS AI) at SMIU
