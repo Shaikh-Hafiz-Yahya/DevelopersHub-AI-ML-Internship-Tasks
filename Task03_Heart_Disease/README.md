@@ -1,4 +1,5 @@
 🫀 Heart Disease Prediction using Logistic Regression
+
 The objective of this project is to analyze medical data and build a machine learning model capable of predicting whether a patient is at risk of heart disease based on various health indicators.
 
 📋 Project Overview
