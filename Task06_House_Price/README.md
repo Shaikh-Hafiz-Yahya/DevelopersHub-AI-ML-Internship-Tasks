@@ -35,9 +35,3 @@ Predicting real estate prices is a fundamental task in data science. In this pro
 * **MAE (Mean Absolute Error):** ~3,552.60
 * **RMSE (Root Mean Squared Error):** ~4,917.11
 * **$R^2$ Score:** **0.9996**
-
----
-
-## 👨‍💻 Author
-**Hafiz Muhammad Yahya**
-*Undergraduate Student (BS AI) at SMIU*
